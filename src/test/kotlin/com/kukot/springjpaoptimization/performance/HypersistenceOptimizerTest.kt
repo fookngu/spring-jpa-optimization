@@ -1,7 +1,7 @@
 package com.kukot.springjpaoptimization.performance
 
-import io.hypersistence.optimizer.HypersistenceOptimizer
-import io.hypersistence.optimizer.core.config.JpaConfig
+import net.toiditimtoi.betterpersistence.HypersistenceOptimizer
+import net.toiditimtoi.betterpersistence.core.config.JpaConfig
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.extension.ExtendWith
