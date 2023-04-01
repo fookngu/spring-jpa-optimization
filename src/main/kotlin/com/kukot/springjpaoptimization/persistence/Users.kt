@@ -9,10 +9,10 @@ import javax.persistence.Id
 
 
 @Entity
-data class User(
+data class Users(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: UUID,
+    var id: Long,
 
     @Column(name = "first_name")
     val firstName: String,
